@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 4.5fr;
+    grid-template-rows: 1.5fr 5fr;
+    height: 100vh;
+}
+
+.sidebar {
+    border: 2px solid green;
+    background-color: lightblue;
+    grid-column: 1;
+    grid-row: 1 / -1;
+    text-align: center;
+}
+
+.header {
+    border: 2px solid green;
+    text-align: center;
+}
+
+.main-content {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.item {
+    border: 2px solid green;
+}
