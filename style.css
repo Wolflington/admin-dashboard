@@ -20,33 +20,56 @@ main {
     display: grid;
     grid-template-rows: repeat (2, 1fr);
     padding: 10px 55px;
+    /* text-align: center; */
 }
 
 .header-top {
     display: flex;
     align-items: center;
     gap: 20px;
-    width: min(75%, 1fr);
 }
 
 .header-profile {
     display: flex;
     justify-content: flex-end;
-    width: min(50%, 500px);
+    width: min(50%, 85%);
     align-items: center;
     gap: 35px;
 }
 
 .avatar-top {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 3rem;
     background-color: gray;
 }
 
 .header-bottom{
+    display: grid;
+    grid-template-columns: 5rem 1fr 1fr;    
+    align-items: center;
+    gap: 20px;
+}
+
+.avatar-bottom {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.header-buttons {
+    align-self: center;
+    justify-self: end;
     display: flex;
-    align-items: end;
+    gap: 3rem;
+}
+
+.header-buttons > button {
+    width: 5.5rem;
+    height: 2rem;
+    border-radius: 10px;
+    background-color: lightblue;
 }
 
 input[type ="search"] {
@@ -97,11 +120,6 @@ input[type ="search"] {
 .side-items {
     align-self: center;
     padding-left: 10px;
-}
-
-.header {
-    border: 2px solid green;
-    text-align: center;
 }
 
 .main-content {
