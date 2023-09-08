@@ -4,9 +4,6 @@ Admin Dashboard is one of the projects from The Odin Project. This project was m
 
 [Live Preview](https://wolflington.github.io/admin-dashboard/)
 
-Admin Dashboard is powered by HTML5 and CSS5
------------
-
 What I learned
 -----------
 - How to effectively use grid display by making a responsive website.
@@ -18,3 +15,6 @@ What I could improve
 - Use JavaScript together with HTML and CSS to make the website further responsive in terms of functionality and design
 - Make the website's responsiveness more fluid
 - Make the website mobile-friendly
+
+Admin Dashboard is powered by HTML5 and CSS5
+-----------
