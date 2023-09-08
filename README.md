@@ -2,7 +2,7 @@ Admin Dashboard by Joseph Ely Tuyor (Wolflington)
 ----------
 Admin Dashboard is one of the projects from The Odin Project. This project was made to apply and show what I've learned from the curriculum.
 
-[Live Preview](https://wolflington.github.io/admin-dashboard/)https://wolflington.github.io/admin-dashboard/)
+[Live Preview](https://wolflington.github.io/admin-dashboard/)
 
 Admin Dashboard is powered by HTML5 and CSS5
 -----------
